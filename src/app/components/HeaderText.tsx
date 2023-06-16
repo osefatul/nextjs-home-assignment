@@ -1,9 +1,5 @@
 "use client"
 
-type Props = {
-  headerText: string 
-}
-
 import {useHeaderContext} from "../../context/headerContext"
 
 export default async function HeaderText() {
